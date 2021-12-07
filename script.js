@@ -13,6 +13,7 @@ var generateBtn = document.querySelector("#generate");
   // Add event listener to generate button;
   // generateBtn.addEventListener("click", userPrompts);
 
+
 // Write password to the #password input
 function askLength() {
   var length = prompt("How Many Characters?");
