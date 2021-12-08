@@ -11,7 +11,8 @@ CSS
 script.js
 
 Website:
-
+https://cclund444.github.io/c03passwordgenerator/
+<img src= "Image.jpg"/>
 
 Contibution:
 
@@ -19,6 +20,3 @@ Caleb Lund
 (575) 937-3648 
 calebcoylund444@gmail.com 
 https://github.com/cclund444
-
-Side Setup notes:
-
