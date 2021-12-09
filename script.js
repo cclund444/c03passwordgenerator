@@ -39,8 +39,9 @@ function charChoice() {
   if (wantSymbol == true) {
     master += symbol
   }
-
+    return master;
 }
+const pwdanswer=document.getElementById("password");
 
 function userPrompts() {
   var lengthAns = askLength()
@@ -55,16 +56,20 @@ function userPrompts() {
     charChoice()
   }
 
-  writePassword(lengthAns)
+  writePassword(lengthAns, master);
 
 }
 
-function writePassword(length) {
+  // const pwdanswer=document.getElementById("password");
+
+function writePassword(length, pwdstring) {
+  
+  let temp = "";
   // for loop that takes a random character from the master string and puts it onto a final string repeatedly until password length is met
  for (let i = 0; i < length; i++) {
-   
+  temp += pwdstring.charAt(i);
  }
-
+ pwdanswer.textContent = temp;
   // Put the password on the screen
  
 
